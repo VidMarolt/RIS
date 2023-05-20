@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "posiljateljev_id": 1,
+    "prejemnikov_id": 2,
+    "vsota": 200,
+    "datum": "05.04.2023"
+  },
+  {
+    "id": 2,
+    "posiljateljev_id": 2,
+    "prejemnikov_id": 1,
+    "vsota": 300,
+    "datum": "07.03.2023"
+  },
+  {
+    "id": 3,
+    "posiljateljev_id": "1",
+    "prejemnikov_id": 2,
+    "vsota": "200",
+    "datum": "19.05.2023"
+  },
+  {
+    "id": 4,
+    "posiljateljev_id": "1",
+    "prejemnikov_id": 2,
+    "vsota": "1000",
+    "datum": "19.05.2023"
+  },
+  {
+    "id": 5,
+    "posiljateljev_id": "2",
+    "prejemnikov_id": 1,
+    "vsota": "200",
+    "datum": "20.05.2023"
+  }
+]

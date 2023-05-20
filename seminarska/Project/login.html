@@ -1,0 +1,69 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="login.js" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/2.0.2/sha.js"></script>
+    <title>Dobra banka - Login</title>
+  </head>
+  <body>
+    <div class="login-div main-div">
+      <h1>Login</h1>
+      <div class="form">
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            name="uname"
+            id="username"
+            required
+          />
+
+          <label for="psw"><b>Password</b></label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter Password"
+            name="psw"
+            required
+          />
+          <img
+            toggle="#password"
+            class="fa fa-fw fa-eye field-icon toggle-password"
+            src="icons/eye1.png"
+            alt=""
+          />
+
+          <button id="submit" class="loginbtn">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember" /> Remember
+            me
+          </label>
+        </div>
+        <p id="error-msg"></p>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+    <script>
+      $(".toggle-password").click(function () {
+        $(this).toggleClass("fa-eye fa-eye-slash");
+
+        if ($(this).attr("src") == "icons/eye1.png")
+          $(this).attr("src", "icons/eye2.png");
+        else $(this).attr("src", "icons/eye1.png");
+
+        var input = $($(this).attr("toggle"));
+        if (input.attr("type") == "password") {
+          input.attr("type", "text");
+        } else {
+          input.attr("type", "password");
+        }
+      });
+    </script>
+  </body>
+</html>
