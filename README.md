@@ -6,9 +6,9 @@ Odpremo Project/login.html, kjer se lahko prijavimo s testima uporabnikoma
   
 Izvajanje transakcij lahko simuliramo z uporabo spodnjih podatkov
   uporabnik 1:
-    ime in priimek: Matevz Skender
+  * ime in priimek: Matevz Skender
     TRR: 54215485415256
-  uporabnik 2;
+  uporabnik 2:
     ime in priimek: Vid Marolt
     TRR: 54232485435212
   
