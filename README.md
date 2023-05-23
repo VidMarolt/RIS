@@ -1,22 +1,18 @@
 # RIS
 
-Odpremo Project/login.html, kjer se lahko prijavimo s testima uporabnikoma
-  matevz/test,
-  vid/test2
+Odpremo Project2.0/login.php, kjer se lahko prijavimo s testima uporabnikoma
+  matevz.skender10@gmail.com / test2
+  vid.marolt@gmail.com / test3
   
 Izvajanje transakcij lahko simuliramo z uporabo spodnjih podatkov
   uporabnik 1:
-    ime in priimek: Matevz Skender,
-    TRR: 54215485415256
+    ime in priimek: matevz skender,
+    TRR: 0123
   uporabnik 2:
-    ime in priimek: Vid Marolt,
-    TRR: 54232485435212
+    ime in priimek: vid marolt,
+    TRR: 1234
   
-  
- Češka Rešitev:
-  ko se transakcija uspešno uzvede, se nam preneseta dve datoteki: tranzakcija.json in racun.json.
-  Vsebino je potrebno prekopirati v Project/tranzakcija.json in Project/racun.json.
-  Refresh index.html
+ 
   
 
 
